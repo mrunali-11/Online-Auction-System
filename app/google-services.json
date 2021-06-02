@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1072174823912",
+    "project_id": "auth-4840d",
+    "storage_bucket": "auth-4840d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072174823912:android:5568663b8154ac1b398c5d",
+        "android_client_info": {
+          "package_name": "com.example.onlineauctionsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072174823912-n86i0b045m5nu45gka74ncun1tcmik73.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdQYDXbOOJtOPcB5qzkZavpy96ih-CdxE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1072174823912-n86i0b045m5nu45gka74ncun1tcmik73.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

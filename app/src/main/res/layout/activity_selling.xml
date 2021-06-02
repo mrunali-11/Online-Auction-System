@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btn_save"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".selling">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="293dp"
+        android:layout_height="64dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="688dp"
+        android:backgroundTint="#090808"
+        android:text="Input Product"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="216dp"
+        android:layout_marginBottom="613dp"
+        android:backgroundTint="#090808"
+        android:text="SelectDate"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="202dp"
+        android:layout_marginBottom="467dp"
+        android:backgroundTint="#090808"
+        android:text="SelectTime"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="170dp"
+        android:layout_height="43dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="206dp"
+        android:layout_marginBottom="300dp"
+        android:backgroundTint="#090808"
+        android:text="Description"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="243dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="191dp"
+        android:backgroundTint="#090808"
+        android:text="Set Starting Price"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/editTextTime"
+        android:layout_width="326dp"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="402dp"
+        android:ems="10"
+        android:hint="Enter Time"
+        android:inputType="time" />
+
+    <EditText
+        android:id="@+id/editTextTime3"
+        android:layout_width="326dp"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="351dp"
+        android:ems="10"
+        android:hint="Enter End Time"
+        android:inputType="time" />
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="354dp"
+        android:layout_height="58dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="242dp"
+        android:ems="10"
+        android:hint="Product Description"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="306dp"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="545dp"
+        android:ems="10"
+        android:hint="Enter Date"
+        android:inputType="date" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="121dp"
+        android:layout_height="61dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="149dp"
+        android:layout_marginBottom="52dp"
+        android:text="Save" />
+
+    <EditText
+        android:id="@+id/setet"
+        android:layout_width="340dp"
+        android:layout_height="68dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="126dp"
+        android:ems="10"
+        android:hint="Set Price"
+        android:inputType="textPersonName|numberDecimal" />
+
+</RelativeLayout>
